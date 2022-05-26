@@ -101,3 +101,7 @@ def ok():
     # ok: path-traversal-open
     open("static/path.txt", 'r')
 
+return open("echo %s" % (param,), 'r').read()
+
+return open("echo %s" % (param,), 'r').read()
+
